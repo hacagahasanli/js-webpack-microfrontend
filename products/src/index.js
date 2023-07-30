@@ -1,10 +1,16 @@
 import faker from 'faker';
 
-let products = '';
+export const a = "Frontend Engineer"
 
-for (let i = 0; i < 5; i++) {
-  const name = faker.commerce.productName();
-  products += `<div>${name}</div>`;
+export const hacagaFunc  = () => {
+  let products = '';
+
+  for (let i = 0; i < 5; i++) {
+    const name = faker.commerce.productName();
+    products += `<div>${name + " " + i}</div>`;
+  }
+  
+  document.querySelector('#dev-products').innerHTML = products;
 }
 
-document.querySelector('#dev-products').innerHTML = products;
+export const b = a

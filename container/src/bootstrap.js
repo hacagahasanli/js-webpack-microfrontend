@@ -1,2 +1,7 @@
+import { hacagaFunc, a, b} from "products/ProductsIndex";
 
-console.log('Container!');
+hacagaFunc();
+console.log(a,"A")
+console.log(b,"B")
+
+console.log("Container!");
