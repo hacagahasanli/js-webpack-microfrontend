@@ -1,4 +1,5 @@
 import { hacagaFunc, a, b} from "products/ProductsIndex";
+import "cart/CartShow"
 
 hacagaFunc();
 console.log(a,"A")

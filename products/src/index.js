@@ -2,7 +2,7 @@ import faker from 'faker';
 
 export const a = "Frontend Engineer"
 
-export const hacagaFuncEdit  = () => {
+export const hacagaFunc  = () => {
   let products = '';
 
   for (let i = 0; i < 5; i++) {
