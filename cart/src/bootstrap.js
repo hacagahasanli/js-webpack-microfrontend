@@ -6,7 +6,7 @@ export const mount = (el) => {
     el.innerHTML = cartText;
 }
 
-if(process.send.NODE_ENV === "development"){
+if(process.env.NODE_ENV === "development"){
     const el = document.querySelector("#dev-cart")
 
     if(el){
